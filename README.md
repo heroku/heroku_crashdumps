@@ -22,7 +22,7 @@ And to .app.src:
   ...
 ```
 
-And run `heroku_crashdumps:start()` in your top-level application.
+And run `heroku_crashdumps_app:start()` in your top-level application.
 
 # Configure
 
