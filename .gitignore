@@ -1,3 +1,5 @@
 ebin
 *.beam
 *.app
+.idea
+*.iml
