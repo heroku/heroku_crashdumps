@@ -1,11 +1,11 @@
-{application, heroku_crashdumps,
- [{description, "Configure crash dump output location"},
-  {vsn, "0.1.0"},
-  {registered, []},
-  {start_phases, []},
-  {applications, [
-                 kernel
-                 ,stdlib
-                 ]},
-  {env, []}
- ]}.
+{application, heroku_crashdumps, [
+    {description, "Configure crash dump output location"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {start_phases, []},
+    {applications, [kernel, stdlib]},
+    {env, []},
+    {maintainers, ["Tristan Sloughter"]},
+    {licenses, ["MIT"]},
+    {links, [{"Github", "https://github.com/heroku/heroku_crashdumps"}]}
+]}.
